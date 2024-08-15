@@ -10,5 +10,3 @@ def home():
 if __name__ == '__main__':
     app.run()
 
-# startup.txt
-gunicorn --bind=0.0.0.0 --timeout 600 app:app
